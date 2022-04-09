@@ -1,4 +1,4 @@
-package com.ssm.strategy.v1;
+package com.ssm.strategy.v2;
 
 public abstract class Duck {
 
@@ -12,8 +12,4 @@ public abstract class Duck {
 
     protected abstract void display();
 
-    //This is a new requirement after we released our Duck Game. So added later
-    protected void fly(){
-        System.out.println("flying...");
-    }
 }

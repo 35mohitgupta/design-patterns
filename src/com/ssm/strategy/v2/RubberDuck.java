@@ -1,8 +1,10 @@
-package com.ssm.strategy.v1;
+package com.ssm.strategy.v2;
 
-public class RubberDuck extends Duck{
 
-    protected void quack(){
+public class RubberDuck extends Duck implements Quackable{
+
+    @Override
+    public void quack() {
         System.out.println("Squeak...");
     }
 
@@ -11,7 +13,4 @@ public class RubberDuck extends Duck{
         System.out.println("Displaying RubberDuck");
     }
 
-    //can't fly
-    protected void fly(){
-    }
 }

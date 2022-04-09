@@ -1,14 +1,14 @@
 package com.ssm.strategy.v1;
 
-public class RubberDuck extends Duck{
+public class WoodenDuck extends Duck{
 
+    //can't quack
     protected void quack(){
-        System.out.println("Squeak...");
     }
 
     @Override
     protected void display() {
-        System.out.println("Displaying RubberDuck");
+        System.out.println("Wooden RubberDuck");
     }
 
     //can't fly
