@@ -1,4 +1,6 @@
 package com.ssm.strategy.strategy.quack;
 
-public class QuackBehaviour {
+public interface QuackBehaviour {
+
+    void performQuack();
 }
